@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/only"
+    tools:context=".quickActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. What is Python? What are the benefits of using Python"
+            android:textColor="@color/white"
+            android:fontFamily="@font/fct"
+            android:textSize="@dimen/_17sdp"
+            android:layout_margin="@dimen/_10sdp"
+            >
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/black"
+            android:justificationMode="inter_word"
+            android:layout_margin="@dimen/_10sdp"
+            android:text="Python is a high-level, interpreted, general-purpose programming language. Being a general-purpose language, it can be used to build almost any type of application with the right tools/libraries. Additionally, python supports objects, modules, threads, exception-handling, and automatic memory management which help in modelling real-world problems and building applications to solve these problems.
+
+\n\nBenefits of using Python:
+
+\n\nPython is a general-purpose programming language that has a simple, easy-to-learn syntax that emphasizes readability and therefore reduces the cost of program maintenance. Moreover, the language is capable of scripting, is completely open-source, and supports third-party packages encouraging modularity and code reuse.
+\n\nIts high-level data structures, combined with dynamic typing and dynamic binding, attract a huge community of developers for Rapid Application Development and deployment."
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. What is a dynamically typed language?"
+            android:textColor="@color/white"
+            android:fontFamily="@font/fct"
+            android:textSize="@dimen/_17sdp"
+            android:layout_margin="@dimen/_10sdp"
+            >
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/black"
+            android:justificationMode="inter_word"
+            android:layout_margin="@dimen/_10sdp"
+            android:text="Before we understand a dynamically typed language, we should learn about what typing is. Typing refers to type-checking in programming languages. In a strongly-typed language, such as Python, 1 + 2 will result in a type error since these languages don't allow for type-coercion (implicit conversion of data types). On the other hand, a weakly-typed language, such as Javascript, will simply output 12 as result.
+
+       \n\n Type-checking can be done at two stages -
+
+        \n\nStatic - Data Types are checked before execution.
+        \n\nDynamic - Data Types are checked during execution.
+        \n\nPython is an interpreted language, executes each statement line by line and thus type-checking is done on the fly, during execution. Hence, Python is a Dynamically Typed Language."
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. What is an Interpreted language?"
+            android:textColor="@color/white"
+            android:fontFamily="@font/fct"
+            android:textSize="@dimen/_17sdp"
+            android:layout_margin="@dimen/_10sdp"
+            >
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/black"
+            android:justificationMode="inter_word"
+            android:layout_margin="@dimen/_10sdp"
+            android:text="An Interpreted language executes its statements line by line. Languages such as Python, Javascript, R, PHP, and Ruby are prime examples of Interpreted languages. Programs written in an interpreted language runs directly from the source code, with no intermediary compilation step."
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. What is PEP 8 and why is it important?"
+            android:textColor="@color/white"
+            android:fontFamily="@font/fct"
+            android:textSize="@dimen/_17sdp"
+            android:layout_margin="@dimen/_10sdp"
+            >
+        </TextView>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/black"
+            android:justificationMode="inter_word"
+            android:layout_margin="@dimen/_10sdp"
+            android:text="PEP stands for Python Enhancement Proposal. A PEP is an official design document providing information to the Python community, or describing a new feature for Python or its processes. PEP 8 is especially important since it documents the style guidelines for Python Code. Apparently contributing to the Python open-source community requires you to follow these style guidelines sincerely and strictly."
+            >
+
+        </TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. What is Scope in Python?"
+            android:textColor="@color/white"
+            android:fontFamily="@font/fct"
+            android:textSize="@dimen/_17sdp"
+            android:layout_margin="@dimen/_10sdp"
+            >
+        </TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/black"
+            android:justificationMode="inter_word"
+            android:layout_margin="@dimen/_10sdp"
+            android:text="Every object in Python functions within a scope. A scope is a block of code where an object in Python remains relevant. Namespaces uniquely identify all the objects inside a program. However, these namespaces also have a scope defined for them where you could use their objects without any prefix. A few examples of scope created during code execution in Python are as follows:
+
+\n\nA local scope refers to the local objects available in the current function.
+\n\nA global scope refers to the objects available throughout the code execution since their inception.
+\n\nA module-level scope refers to the global objects of the current module accessible in the program.
+\n\nAn outermost scope refers to all the built-in names callable in the program. The objects in this scope are searched last to find the name referenced."
+            >
+
+        </TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. What are lists and tuples? What is the key difference between the two?"
+            android:textColor="@color/white"
+            android:fontFamily="@font/fct"
+            android:textSize="@dimen/_17sdp"
+            android:layout_margin="@dimen/_10sdp"
+            >
+        </TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/black"
+            android:justificationMode="inter_word"
+            android:layout_margin="@dimen/_10sdp"
+            android:text="Lists and Tuples are both sequence data types that can store a collection of objects in Python. The objects stored in both sequences can have different data types. Lists are represented with square brackets ['sara', 6, 0.19], while tuples are represented with parantheses ('ansh', 5, 0.97).
+\n\nBut what is the real difference between the two? The key difference between the two is that while lists are mutable, tuples on the other hand are immutable objects. This means that lists can be modified, appended or sliced on the go but tuples remain constant and cannot be modified in any manner. "
+            >
+        </TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7. What are the common built-in data types in Python?"
+            android:textColor="@color/white"
+            android:fontFamily="@font/fct"
+            android:textSize="@dimen/_17sdp"
+            android:layout_margin="@dimen/_10sdp"
+            >
+        </TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/black"
+            android:justificationMode="inter_word"
+            android:layout_margin="@dimen/_10sdp"
+            android:text="There are several built-in data types in Python. Although, Python doesn't require data types to be defined explicitly during variable declarations type errors are likely to occur if the knowledge of data types and their compatibility with each other are neglected. Python provides type() and isinstance() functions to check the type of these variables." >
+        </TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8. What is pass in Python?"
+            android:textColor="@color/white"
+            android:fontFamily="@font/fct"
+            android:textSize="@dimen/_17sdp"
+            android:layout_margin="@dimen/_10sdp"
+            >
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/black"
+            android:justificationMode="inter_word"
+            android:layout_margin="@dimen/_10sdp"
+            android:text="The pass keyword represents a null operation in Python. It is generally used for the purpose of filling up empty blocks of code which may execute during runtime but has yet to be written. Without the pass statement in the following code, we may run into some errors during code execution." >
+        </TextView>
+
+    </LinearLayout>
+
+</ScrollView>

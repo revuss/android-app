@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/only"
+    tools:context=".quickActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is Java? "
+            android:textColor="@color/black"
+            android:fontFamily="@font/fct"
+            android:textSize="@dimen/_20sdp"
+            android:layout_margin="@dimen/_10sdp"
+            >
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/black"
+            android:justificationMode="inter_word"
+            android:layout_margin="@dimen/_10sdp"
+            android:text="Java is the high-level programming language that was developed by James Gosling in the year 1982. It is based on the principles of object-oriented programming and can be used to develop large-scale applications.\n\n The following article will cover all the popular Core Java interview questions, String Handling interview questions, java 8 interview questions, java multithreading interview questions, java OOPs interview questions, java exception handling interview questions, collections interview questions, and some frequently asked java coding interview questions.\n\nGo through all the questions to enhance your chances of performing well in the interviews. The questions will revolve around the basic, core  advanced fundamentals of Java.\n\nSo, let’s dive deep into the plethora of useful Java Interview questions and answers for freshers and experienced candidates in depth."
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:text="Java Basic Interview Questions
+\n\n1. Why is Java a platform independent language?"
+            android:textColor="@color/black"
+            android:fontFamily="@font/fct"
+            android:textSize="@dimen/_14sdp"
+            android:layout_margin="@dimen/_10sdp"
+            >
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/black"
+            android:justificationMode="inter_word"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:text="Java language was developed in such a way that it does not depend on any hardware or software due to the fact that the compiler compiles the code and then converts it to platform-independent byte code which can be run on multiple systems
+            .\nThe only condition to run that byte code is for the machine to have a runtime environment (JRE) installed in it"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:text="2. Why is Java not a pure object oriented language?"
+            android:textColor="@color/black"
+            android:fontFamily="@font/fct"
+            android:textSize="@dimen/_14sdp"
+            android:layout_margin="@dimen/_10sdp"
+            >
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:gravity="left"
+            android:justificationMode="inter_word"
+            android:text="Java supports primitive data types - byte, boolean, char, short, int, float, long, and double and hence it is not a pure object oriented language."
+            android:textColor="@color/black">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:text="3. Difference between Heap and Stack Memory in java. And how java utilizes this."
+            android:textColor="@color/black"
+            android:fontFamily="@font/fct"
+            android:textSize="@dimen/_14sdp"
+            android:layout_margin="@dimen/_10sdp"
+            >
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:gravity="left"
+            android:justificationMode="inter_word"
+            android:text="Stack memory is the portion of memory that was assigned to every individual program. And it was fixed. On the other hand, Heap memory is the portion that was not allocated to the java program but it will be available for use by the java program when it is required, mostly during the runtime of the program."
+            android:textColor="@color/black">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:text="4. Can java be said to be the complete object-oriented programming language?"
+            android:textColor="@color/black"
+            android:fontFamily="@font/fct"
+            android:textSize="@dimen/_14sdp"
+            android:layout_margin="@dimen/_10sdp"
+            >
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:gravity="left"
+            android:justificationMode="inter_word"
+            android:text="It is not wrong if we claim that java is the complete object-oriented programming language. Because Everything in Java is under the classes. And we can access that by creating the objects.\n\nBut also if we say that java is not a completely object-oriented programming language because it has the support of primitive data types like int, float, char, boolean, double, etc.\n\nNow for the question: Is java a completely object-oriented programming language? We can say that - Java is not a pure object-oriented programming language, because it has direct access to primitive data types. And these primitive data types don't directly belong to the Integer classes."
+            android:textColor="@color/black">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:text="5. How is Java different from C++?"
+            android:textColor="@color/black"
+            android:fontFamily="@font/fct"
+            android:textSize="@dimen/_14sdp"
+            android:layout_margin="@dimen/_10sdp"
+            >
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:gravity="left"
+            android:justificationMode="inter_word"
+            android:text="C++ is only a  compiled language, whereas Java is compiled as well as an interpreted language.
+\nJava programs are machine-independent whereas a c++ program can run only in the machine in which it is compiled.
+\nC++ allows users to use pointers in the program. Whereas java doesn’t allow it. Java internally uses pointers.
+\nC++ supports the concept of Multiple inheritances whereas Java doesn't support this. And it is due to avoiding the complexity of name ambiguity that causes the diamond problem."
+            android:textColor="@color/black">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:text="6. Pointers are used in C/ C++. Why does Java not make use of pointers?"
+            android:textColor="@color/black"
+            android:fontFamily="@font/fct"
+            android:textSize="@dimen/_14sdp"
+            android:layout_margin="@dimen/_10sdp"
+            >
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:gravity="left"
+            android:justificationMode="inter_word"
+            android:text="Pointers are quite complicated and unsafe to use by beginner programmers. Java focuses on code simplicity, and the usage of pointers can make it challenging. Pointer utilization can also cause potential errors. Moreover, security is also compromised if pointers are used because the users can directly access memory with the help of pointers.\n\nThus, a certain level of abstraction is furnished by not including pointers in Java. Moreover, the usage of pointers can make the procedure of garbage collection quite slow and erroneous. Java makes use of references as these cannot be manipulated, unlike pointers."
+            android:textColor="@color/black">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:text="7. What do you understand by an instance variable and a local variable?"
+            android:textColor="@color/black"
+            android:fontFamily="@font/fct"
+            android:textSize="@dimen/_14sdp"
+            android:layout_margin="@dimen/_10sdp"
+            >
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:gravity="left"
+            android:justificationMode="inter_word"
+            android:text="Instance variables are those variables that are accessible by all the methods in the class. They are declared outside the methods and inside the class. These variables describe the properties of an object and remain bound to it at any cost.\n\nAll the objects of the class will have their copy of the variables for utilization. If any modification is done on these variables, then only that instance will be impacted by it, and all other class instances continue to remain unaffected.\n\nLocal variables are those variables present within a block, function, or constructor and can be accessed only inside them. The utilization of the variable is restricted to the block scope. Whenever a local variable is declared inside a method, the other class methods don’t have any knowledge about the local variable."
+            android:textColor="@color/black">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:text="8. What are the default values assigned to variables and instances in java?"
+            android:textColor="@color/black"
+            android:fontFamily="@font/fct"
+            android:textSize="@dimen/_14sdp"
+            android:layout_margin="@dimen/_10sdp"
+            >
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:gravity="left"
+            android:justificationMode="inter_word"
+            android:text="There are no default values assigned to the variables in java. We need to initialize the value before using it. Otherwise, it will throw a compilation error of (Variable might not be initialized).
+\nBut for instance, if we create the object, then the default value will be initialized by the default constructor depending on the data type.
+\nIf it is a reference, then it will be assigned to null.
+\nIf it is numeric, then it will assign to 0.
+\nIf it is a boolean, then it will be assigned to false. Etc."
+            android:textColor="@color/black">
+
+        </TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:fontFamily="@font/fct"
+            android:text="9. What do you mean by data encapsulation?"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14sdp">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:gravity="left"
+            android:justificationMode="inter_word"
+            android:text="Data Encapsulation is an Object-Oriented Programming concept of hiding the data attributes and their behaviours in a single unit.
+\nIt helps developers to follow modularity while developing software by ensuring that each object is independent of other objects by having its own methods, attributes, and functionalities.
+\nIt is used for the security of the private properties of an object and hence serves the purpose of data hiding."
+            android:textColor="@color/black">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:text="10. Tell us something about JIT compiler."
+            android:textColor="@color/black"
+            android:fontFamily="@font/fct"
+            android:textSize="@dimen/_14sdp"
+            android:layout_margin="@dimen/_10sdp"
+            >
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:gravity="left"
+            android:justificationMode="inter_word"
+            android:text="JIT stands for Just-In-Time and it is used for improving the performance during run time. It does the task of compiling parts of byte code having similar functionality at the same time thereby reducing the amount of compilation time for the code to run.
+\n\nThe compiler is nothing but a translator of source code to machine-executable code. But what is special about the JIT compiler? Let us see how it works:
+\nFirst, the Java source code (.java) conversion to byte code (.class) occurs with the help of the javac compiler.
+\nThen, the .class files are loaded at run time by JVM and with the help of an interpreter, these are converted to machine understandable code.
+\nJIT compiler is a part of JVM. When the JIT compiler is enabled, the JVM analyzes the method calls in the .class files and compiles them to get more efficient and native code. It also ensures that the prioritized method calls are optimized.
+\nOnce the above step is done, the JVM executes the optimized code directly instead of interpreting the code again. This increases the performance and speed of the execution."
+            android:textColor="@color/black">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:text="11. Can you tell the difference between equals() method and equality operator (==) in Java?"
+            android:textColor="@color/black"
+            android:fontFamily="@font/fct"
+            android:textSize="@dimen/_14sdp"
+            android:layout_margin="@dimen/_10sdp"
+            >
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:gravity="left"
+            android:justificationMode="inter_word"
+            android:text="In the cases where the equals method is not overridden in a class, then the class uses the default implementation of the equals method that is closest to the parent class.
+\n\nObject class is considered as the parent class of all the java classes. The implementation of the equals method in the Object class uses the == operator to compare two objects. This default implementation can be overridden as per the business logic."
+            android:textColor="@color/black">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:text="12. What are the default values assigned to variables and instances in java?"
+            android:textColor="@color/black"
+            android:fontFamily="@font/fct"
+            android:textSize="@dimen/_14sdp"
+            android:layout_margin="@dimen/_10sdp"
+            >
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:gravity="left"
+            android:justificationMode="inter_word"
+            android:text="Java supports primitive data types - byte, boolean, char, short, int, float, long, and double and hence it is not a pure object oriented language."
+            android:textColor="@color/black">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:text="13. Can the static methods be overloaded?"
+            android:textColor="@color/black"
+            android:fontFamily="@font/fct"
+            android:textSize="@dimen/_14sdp"
+            android:layout_margin="@dimen/_10sdp"
+            >
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:gravity="left"
+            android:justificationMode="inter_word"
+            android:text="Yes! There can be two or more static methods in a class with the same name but differing input parameters."
+            android:textColor="@color/black">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:text="14. Why is the main method static in Java?"
+            android:textColor="@color/black"
+            android:fontFamily="@font/fct"
+            android:textSize="@dimen/_14sdp"
+            android:layout_margin="@dimen/_10sdp"
+            >
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:gravity="left"
+            android:justificationMode="inter_word"
+            android:text="The main method is always static because static members are those methods that belong to the classes, not to an individual object. So if the main method will not be static then for every object, It is available. And that is not acceptable by JVM. JVM calls the main method based on the class name itself. Not by creating the object.
+\n\nBecause there must be only 1 main method in the java program as the execution starts from the main method. So for this reason the main method is static."
+            android:textColor="@color/black">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+</ScrollView>

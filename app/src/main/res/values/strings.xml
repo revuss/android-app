@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ChatApplication</string>
+    <string-array name="subj">
+        <item>Java</item>
+        <item>Python</item>
+        <item>HTML</item>
+        <item>Library</item>
+
+    </string-array>
+</resources>
